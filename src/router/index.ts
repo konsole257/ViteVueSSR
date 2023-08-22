@@ -11,7 +11,7 @@ const routes: RouteRecordRaw[] = Object.keys(pages).map((path) => {
 });
 
 const router = createRouter({
-	history: import.meta.env.SSR ? createMemoryHistory() : createWebHistory(),
+	history: import.meta.env.SSR ? createMemoryHistory('/ViteVueSSR/') : createWebHistory('/ViteVueSSR/'),
 	routes,
 });
 

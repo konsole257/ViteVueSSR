@@ -16,7 +16,7 @@ export default defineConfig(({
 		// },
 
 		// base: env.VITE_ENV_ROOT || '/',
-		base: '/',
+		base: '/ViteVueSSR/',
 
 		envDir: './',
 
