@@ -11,7 +11,7 @@
 		"build:client": "vite build --outDir dist/client --ssrManifest",
 		"build:server": "vite build --outDir dist/server --ssr src/entry-server.ts",
 		"serve": "NODE_ENV=production ts-node server.ts",
-		"generate": "vite build --ssrManifest --outDir dist/static && npm run build:server && node prerender"
+		"generate": "vite build --ssrManifest --outDir dist/static && npm run build:server && node prerender.ts"
 	},
 	"dependencies": {
 		"vue": "^3.3.4",

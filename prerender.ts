@@ -13,7 +13,9 @@ const manifest = JSON.parse(
 const template = fs.readFileSync(toAbsolute('dist/static/index.html'), 'utf-8');
 const {
 	render
-} = (await import('./dist/server/entry-server.js')) as { render: (url: string, manifest: any) => Promise<[string, string]> };
+} = (await import('./dist/server/entry-server.js')) as {
+	render: (url: string, manifest: any) => Promise < [string, string] >
+};
 
 // determine routes to pre-render from src/pages
 const routesToPrerender = fs
