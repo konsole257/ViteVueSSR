@@ -13,7 +13,7 @@ const manifest = JSON.parse(
 const template = fs.readFileSync(toAbsolute('dist/static/index.html'), 'utf-8');
 const {
 	render
-} = (await import('./dist/server/entry-server.js')) as {
+} = (await import('./dist/server/entry-server.js')) as unknown as {
 	render: (url: string, manifest: any) => Promise < [string, string] >
 };
 
