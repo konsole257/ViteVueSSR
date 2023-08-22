@@ -3,7 +3,6 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import express from 'express';
 import { createServer as createViteServer } from 'vite';
-import 'dotenv/config';
 
 const __dirname: string = path.dirname(fileURLToPath(import.meta.url));
 const PORT: number = Number(process.env.PORT) || 3100;
