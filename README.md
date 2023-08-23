@@ -7,12 +7,12 @@ https://konsole257.github.io/ViteVueSSR/
 
 npm create vite@latest
 
-npm i
+npm i  
 vue-router
 
-npm i -D
-@types/compression
-@vitejs/plugin-vue-jsx
-compression
-express
-ts-node
+npm i -D  
+@types/compression  
+@vitejs/plugin-vue-jsx  
+compression  
+express  
+ts-node  
