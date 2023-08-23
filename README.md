@@ -5,7 +5,9 @@ https://konsole257.github.io/ViteVueSSR/
 
 ## Use Packages
 
-npm create vite@latest
+npm create vite@latest  
+`>` Vue  
+`>` Typescript  
 
 npm i  
 vue-router
