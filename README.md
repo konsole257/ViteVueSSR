@@ -1,20 +1,5 @@
-# Vue 3 + TypeScript + Vite SSR
+# Vite SSR Test
 
 - URL  
 https://konsole257.github.io/ViteVueSSR/
 
-## Use Packages
-
-npm create vite@latest  
-`>` Vue  
-`>` Typescript  
-
-npm i  
-vue-router
-
-npm i -D  
-@types/compression  
-@vitejs/plugin-vue-jsx  
-compression  
-express  
-ts-node  
